@@ -1,0 +1,119 @@
+
+body {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 30px 0;
+}
+.main {
+    width: 90%;
+    margin: auto;
+}
+h1 {
+    margin: 0 0 60px 0;
+}
+.flex {
+    display: flex;
+    margin: 1%;
+}
+.label {
+    flex: 40;
+    text-align: left;
+}
+.input {
+    flex: 60;
+}
+#table1 {
+    width: 100%;
+    border-collapse: collapse;
+}
+#table1, #table1 th, #table1 td {
+    border: 1px solid black;
+}
+#table1 th {
+    background-color: #f1f1c1;
+}
+.name-left {
+    text-align: left;
+    padding-left: 5px;
+}
+.stt {
+    width: 5%;
+}
+.mon {
+    width: 15%;
+}
+.ten {
+    width: 30%;
+}
+.margin {
+    margin-bottom: 50px;
+}
+.red-row {
+    background-color: red;
+}
+#table2 {
+    width: 30%;
+    border-collapse: collapse;
+}
+#table2, #table2 th, #table2 td {
+    border: 1px solid black;
+}
+#table2 th {
+    width: 80%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.viewall-btn {
+    text-align: left;
+}
+[type="button"] {
+    padding: 8px 1.5vw;
+    font-weight: bold;
+    background-color: #6060ff;
+    color: #fff;
+    border: 1px solid #6060ff;
+}
+
+[type="button"]:hover {
+    background-color: #8080ff;
+}
+
+@media only screen and (max-width: 768px) {
+    #table2 {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .viewall-btn {
+        text-align: center;
+    }
+    .flex {
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #table2 {
+        width: 50%;
+        border-collapse: collapse;
+    }
+    #form {
+        width: 60%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #table2 {
+        width: 30%;
+        border-collapse: collapse;
+    }
+    #form {
+        width: 50%;
+        margin: auto;
+    }
+}

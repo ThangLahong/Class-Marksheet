@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Class Marksheet</title>
+    <meta charset="utf-8">
+    <meta name="viewport", content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Project3_JS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Project3_JS.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="margin">
+                <form id="form">
+                    <h1>Class Marksheet</h1>
+                    <div class="flex">
+                        <label class="label" for="name">Họ Tên</label>
+                        <input class="input" id="name" type="text" autocomplete="off">
+                    </div>
+                    <div class="flex">
+                        <label class="label" for="math">Điểm Toán</label>
+                        <input class="input" id="math" type="number">
+                    </div>
+                    <div class="flex">
+                        <label class="label" for="physical">Điểm Lý</label>
+                        <input class="input" id="physical" type="number">
+                    </div>
+                    <div class="flex">
+                        <label class="label" for="chemistry">Điểm Hóa</label>
+                        <input class="input" id="chemistry" type="number">
+                    </div>
+                </form>
+                <br>
+                <input id="getInfo" type="button" value="Nhập">
+            </div>
+
+            <div class="margin">
+                <table id="table1">
+                    <tr>
+                        <th class="stt">STT</th>
+                        <th class="ten">Họ Tên</th>
+                        <th class="mon">Toán</th>
+                        <th class="mon">Lý</th>
+                        <th class="mon">Hóa</th>
+                        <th>Trung bình</th>
+                    </tr>
+                </table>
+                <br>
+                <input id="average" type="button" value="Tính điểm trung bình">
+                <input id="excellentStudents" type="button" value="Xác định học sinh giỏi">
+            </div>
+
+            <div class="margin">
+                <table id="table2">
+                    <tr>
+                        <th>Sĩ số</th>
+                        <td>?</td>
+                    </tr>
+                    <tr>
+                        <th>Học sinh giỏi</th>
+                        <td>?</td>
+                    </tr>
+                    <tr>
+                        <th>Học sinh khá</th>
+                        <td>?</td>
+                    </tr>
+                    <tr>
+                        <th>Học sinh trung bình</th>
+                        <td>?</td>
+                    </tr>
+                    <tr>
+                        <th>Học sinh yếu</th>
+                        <td>?</td>
+                    </tr>
+                </table>
+                <br>
+                <div class="viewall-btn">
+                    <input id="viewAll" type="button" value="Xem kết quả tổng thể">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
